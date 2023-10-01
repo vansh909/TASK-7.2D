@@ -1,0 +1,201 @@
+/* 
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    height: 5%;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+    background-color: rgb(172, 179, 213);
+  }
+  
+  .filter {
+    margin-bottom: 16px;
+    margin-left: 10px;
+  }
+  
+  .filter h5{
+    margin: 2px;
+  }
+  
+  .newQuestion {
+    margin-bottom: 16px;
+    margin-left: 10px;
+  }
+  
+  .addNewQuestionHearder h1{
+    background-color: aliceblue;
+    margin-left: 10px;
+  }
+  
+  .newQuestion h5{
+    margin:2px
+  }
+  
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #003f80;
+    transform: translateY(2px);
+    
+  
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: azure;
+  }
+   */
+
+
+   /* customStyles.css */
+
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Style for the filter section */
+  
+  .filter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter h5 {
+    margin: 5px 0;
+  }
+  
+  .filter input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filter button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filter button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the new question section */
+  
+  /* .newQuestion {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } */
+  
+  /* .newQuestion h5 {
+    margin: 5px 0;
+  }
+  
+  .newQuestion input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newQuestion button {
+    padding: 10px 20px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .newQuestion button:hover {
+    background-color: #1976d2;
+  } */
+  
+  /* Style for the question cards */
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card button:last-child {
+    background-color: #2196f3;
+  }
+  
+  .card button:hover {
+    opacity: 0.8;
+  }
+  
+  .card .details {
+    margin-top: 10px;
+  }
+  
+  .card .details p {
+    margin: 5px 0;
+  }
+  

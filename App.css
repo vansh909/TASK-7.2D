@@ -1,0 +1,26 @@
+.checkbox_Question{
+  position: relative;
+  margin-right: 50px; 
+   left: 400px;
+  bottom: 34px;
+  font-weight: 800;
+} 
+
+.Select{
+  position: relative;
+  top: 34px;
+}
+.checkbox_Article{
+  position: relative;
+  margin-right: 50px; 
+  left: 170px;
+  font-weight: 800;
+  font-size: 400px;
+ }
+ .Find_Question{
+  position: relative;
+  margin-right: 50px; 
+   left: 700px;
+  bottom: 65px;
+  font-weight: 800;
+}
